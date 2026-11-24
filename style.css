@@ -1,0 +1,341 @@
+.tugmalar {
+    display: flex;
+    gap: 30px;
+}
+
+.sing {
+    font-weight: 400px;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    opacity: 0.4;
+}
+
+.log {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background-color: #BFAFF2;
+}
+
+section {
+    display: flex;
+    padding: 50px 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-1 {
+    font-weight: 600px;
+    font-size: 60px;
+    color: white;
+}
+
+.p-1 {
+    color: white;
+    width: 400px;
+    font-size: 18px;
+    opacity: 0.4;
+    margin-top: 40px;
+}
+
+.get {
+    width: 120px;
+    height: 40px;
+    margin-top: 70px;
+    background-color: #F8D57E;
+    border-radius: 10px;
+    border: none;
+}
+
+.logolar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos-1 {
+    width: 930px;
+    height: 40px;
+}
+
+.div1 {
+    background-color: #FDF5DF;
+    border-radius: 10px;
+}
+
+.image-png {
+    width: 1100px;
+    height: 500px;
+}
+
+.rasm {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.logocha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 120px;
+    gap: 140px;
+}
+
+.cust {
+    font-weight: 600px;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.tom {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400px;
+    font-size: 14px;
+    color: white;
+    opacity: 0.4;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logoo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.xabar-1 {
+    background-color: #BFAFF2;
+    width: 1080px;
+    height: 460px;
+    margin-left: 90px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.xabar-2 {
+    padding: 100px;
+}
+
+.mant-1 {
+    font-size: 30px;
+    font-weight: 900px;
+}
+
+.qora-bola {
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.footer {
+    color: white;
+    height: 210px;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-2 {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.linklar {
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.h-4 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.jonatish {
+    display: flex;
+    gap: 20px;
+}
+
+.input {
+    width: 260px;
+    height: 44px;
+    padding-left: 20px;
+    background-color: #3a3a3a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.tugma {
+    width: 146px;
+    height: 44px;
+    background-color: #c9a7e8;
+    color: #2a2a2a;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.tugma:hover {
+    background-color: #d8bdf0;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 500px) {
+
+    br {
+        display: none;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .tugmalar {
+        gap: 10px;
+    }
+
+    .log {
+        width: 100px;
+        height: 40px;
+    }
+
+    section {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 30px;
+    }
+
+    .h-1 {
+        font-size: 34px;
+    }
+
+    .p-1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .get {
+        margin-top: 30px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .logos-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .rasm {
+        padding: 30px 20px;
+    }
+
+    .image-png {
+        width: 100%;
+        height: auto;
+    }
+
+    .logocha {
+        padding: 30px 20px;
+        gap: 40px;
+    }
+
+    .cardcha {
+        text-align: center;
+    }
+
+    .xabar-1 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .xabar-2 {
+        padding: 30px 20px;
+    }
+
+    .mant-1,
+    .matn-1 {
+        font-size: 18px;
+    }
+
+    .qora-bola {
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 30px 20px;
+        gap: 30px;
+    }
+
+    .linklar {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 50px;
+    }
+
+    .jonatish {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .input,
+    .tugma {
+        width: 100%;
+    }
+
+    .tugmalar {
+        display: none;
+    }
+
+    .matnlar {
+        text-align: center;
+        align-items: center;
+    }
+
+    .logos-1 {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}
